@@ -1,0 +1,57 @@
+{
+  "name": "app",
+  "description": "frontend app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x",
+    "yarn": "1.x"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-bootstrap-sidebar": "^0.0.1",
+    "react-cssobj": "^1.2.5",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^7.1.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "css-loader": "^3.5.3",
+    "csslint": "^1.0.5",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "csslint": "echo CSSLint: && ./node_modules/.bin/csslint src/css/*",
+    "lint": "echo ESLint: && ./node_modules/.bin/eslint -v && ./node_modules/.bin/eslint src --ignore-path .gitignore && npm run csslint"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
